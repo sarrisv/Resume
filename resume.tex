@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{xeCJK}
+\setCJKmainfont{AR PL UMing CN} 
+\usepackage{format}
+
+\begin{document}{
+    % Personal Information
+    % --------------------
+    \personal
+        {VASILIS ETHAN SARRIS}
+        {vas82@pitt.edu} 
+        {+1 (917) 408-3307} 
+        {Pittsburgh, PA}
+        {sarrisv.github.io}
+        
+    % Education History
+    % -----------------
+    \chap{EDUCATION}{
+        \school
+        	{University of Pittsburgh}
+        	{Jan 2019 – Apr 2022}
+        	{B.S. in Computer Science}
+        	{3.3 GPA}
+        	{Pittsburgh, PA}
+    }
+    
+    % Job Experience
+    % --------------
+    \chap{EXPERIENCE}{
+        \job
+        	{Learning Imaging \& Family Experience Lab}
+        	{Apr 2019 – Present}
+        	{Research Assistant}
+        	{Pittsburgh, PA}
+        	{\begin{newitemize}
+        		\item Developed robust fMRI Graph Theory-based data analysis pipeline in {\bf{Python}} using packages such as {\bf{NetworkX}} and {\bf{NiPype}}
+        		\item Conducted feasibility reports on the use of machine learning techniques, technologies, and frameworks such {\bf{hBayesDM}} and {\bf{easyml}} for the purpose of participant performance analysis
+        		\item Developed web-based tasks for large-scale studies using {\bf{JavaScript}} and libraries like {\bf{jspsych}}
+        	\end{newitemize}}
+	\job
+    	{東澳國民小 (Dong\textquotesingle{}ao Elementary)}
+    	{Jul 2018 – Jul 2018}
+    	{English Teacher}
+    	{Nan\textquotesingle{}ao Township, Yilan County, Taiwan}
+    	{\begin{newitemize}
+    		\item Spoke {\bf{Mandarin}} and taught {\bf{English}} to elementary school children grades 1st-5th
+    		\item Planned and performed American cultural experiences for the school children
+    	\end{newitemize}}
+    }
+
+    % Skills
+    % ------
+    \chap{SKILLS}{
+    	\crimReg{\begin{newitemize}
+    		\item Proficient with: {\bf{Java}}, {\bf{Python}}, {\bf{C}}, {\bf{Neo4j}} (Certified Professional)
+    		\item Experience with: {\bf{Bash/Batch Scripting}}, {\bf{C++}}, {\bf{Rust}}, Web Development ({\bf{JS}} / {\bf{CSS}} / {\bf{HTML}})
+    		\item Additional Background in: {\bf{Graph Theory}}, {\bf{Network Analysis}}
+    		\item Extensive experience with data wrangling/analysis libraries: {\bf{Numpy}}, {\bf{NetworkX}}, {\bf{Pandas}}, etc.
+    	\end{newitemize}}
+    }
+    
+    % Personal Projects
+    % -----------------
+    \chap{PROJECTS}{
+    	\project
+        	{FindSimilarArxivAuthors}
+        	{Python, Scikit-learn}
+        	{Uses {\bf{Scikit-learn\textquotesingle{}s} text feature extraction} to find researchers with similar interests based on the abstracts of their publish papers}
+    	\project
+    	    {InteractiveMST}
+    		{Java, Algorithm Implementation}
+    		{An interactive {\bf{Java Applet}} which visualizes of a graph\textquotesingle{}s minimum spanning tree found using {\bf{Prim\textquotesingle{}s Algorithm}}}
+    }
+
+    % Awards/Recognition
+    % ------------------
+    \chap{RECOGNITION}{
+    	\award
+    		{Air Force Association Grant}
+    		{May 2018}
+    		{Received {\bf{\$1000 grant}} from the AFA to continue and improve the CyberPatriot program at George Mason High School {\bf{based on my team\textquotesingle{}s performance}} in the 2018 CyberPatriot competition}{}
+    } 
+}\end{document}
